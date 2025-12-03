@@ -1,0 +1,58 @@
+[
+  {
+    "id":1,
+    "country": "India",
+    "population": 1463865525,
+    "capital": "New Delhi",
+    "interesting": "India became the most populous country in the world in 2023."
+  },
+  {
+    "id":2,
+    "country": "China",
+    "population": 1416096094,
+    "capital": "Beijing",
+    "interesting": "China has the world’s longest continuous civilization."
+  },
+  {
+    "id":3,
+    "country": "United States",
+    "population": 347275807,
+    "capital": "Washington, D.C.",
+    "interesting": "The U.S. has the world’s largest economy."
+  },
+  {
+    "id":4,
+    "country": "Indonesia",
+    "population": 285721236,
+    "capital": "Jakarta",
+    "interesting": "Indonesia is the largest archipelago nation with over 17,000 islands."
+  },
+  {
+    "id":5,
+    "country": "Nigeria",
+    "population": 237527782,
+    "capital": "Abuja",
+    "interesting": "Nigeria is the most populous country in Africa."
+  },
+  {
+    "id":6,
+    "country": "Brazil",
+    "population": 212812405,
+    "capital": "Brasília",
+    "interesting": "Brazil is home to about 60% of the Amazon rainforest."
+  },
+  {
+    "id":7,
+    "country": "Bangladesh",
+    "population": 175686899,
+    "capital": "Dhaka",
+    "interesting": "Bangladesh is one of the most densely populated countries in the world."
+  },
+  {
+    "id":8,
+    "country": "Russia",
+    "population": 143997393,
+    "capital": "Moscow",
+    "interesting": "Russia is the largest country in the world by land area."
+  }
+]
