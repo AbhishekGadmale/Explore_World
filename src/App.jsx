@@ -4,7 +4,7 @@ import  Home  from "./pages/Home";
 import  Contact  from "./pages/Contact";
 import  About  from "./pages/About";
 import AppLayout from "./Components/layout/AppLayout";
-import { ErrorPage } from "./pages/errorPage";
+import { ErrorPage } from "./pages/ErrorPage";
 import "./App.css"
 const App = () => {
   
