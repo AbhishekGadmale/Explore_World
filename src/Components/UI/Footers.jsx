@@ -28,6 +28,26 @@ return(
     )
 })}
         </div>
+     <div className="copyright-area">
+        <div className="container">
+            <div className="grid grid-two-cols">
+                <div className="copyright-text">
+                    <p>Copyright &copy; {new Date().getFullYear()} Explore World All Rights Reserved.
+                           <NavLink to="/" target="_blank">Abhishek Gadmale</NavLink>
+                    </p>
+                 
+                </div>
+                <div className="footer-menu">
+                    <ul>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/socal">Socials</NavLink></li>
+                        <li><NavLink to="https://github.com/AbhishekGadmale/Explore_World.git" target="_blank">Source Code</NavLink></li>
+                        <li><NavLink to="/contact" target="_blank">Contact</NavLink></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
 
    </footer>
 )}
