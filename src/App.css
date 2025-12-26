@@ -41,10 +41,10 @@ li {
 
 a {
   color: #000;
+}
 
-  &:hover {
-    color: #2e86c1;
-  }
+a:hover {
+  color: #2e86c1;
 }
 
 button {
@@ -396,6 +396,10 @@ country Card
 
 .country-card {
   margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 .country-section {
   margin: 6.4rem auto 9.6rem auto;
@@ -603,4 +607,33 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flag-img {
+  width: 100%;
+  height: 150px;              /* LOCK HEIGHT */
+  object-fit: cover;
+  border-radius: 12px;
+  background: #111;
+}
+
+.country-card {
+  min-height: 420px;         /* Keeps all cards same height */
+}
+.flag-wrapper {
+  width: 100%;
+  height: 150px;           /* SAME HEIGHT FOR ALL CARDS */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.flag-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
