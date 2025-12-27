@@ -1,6 +1,13 @@
+import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 const Headers = () => {
-return(
+    const [show,setShow]= useState(false);
+
+    const handleButtonToggle=()=>{
+        setShow(!show);
+    }
+return( 
    
     <div className="container">
         <div className="grid navbar-grid">
@@ -10,7 +17,7 @@ return(
             </NavLink>
             </div>
 
-            <nav>
+            <nav className={show ? 'menu-mobile' : 'menu-web'}>
                 <ul>
                 <li>
                     <NavLink to="/">Home</NavLink>
@@ -26,6 +33,11 @@ return(
                 </li>
                 </ul>              
             </nav>
+            <div className="ham-menu">
+                <button onClick={handleButtonToggle}>
+                <GiHamburgerMenu/>
+                </button>
+            </div>
         </div>
        
     </div>
